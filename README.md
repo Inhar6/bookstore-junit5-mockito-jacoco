@@ -51,6 +51,13 @@ JaCoCo is used to measure test coverage. To generate a test coverage report, fol
    target/site/jacoco/index.html
    ```
 
+4. **Check enough code line coverage is met:**
+   Execute the following code in command line:
+
+   ```sh
+   mvn verify
+   ```
+
 ## Mockito Methods
 | Method | Description |
 |--------|------------|
