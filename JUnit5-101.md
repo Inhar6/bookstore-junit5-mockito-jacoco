@@ -123,7 +123,7 @@ Add the following dependency:
 <dependency>
     <groupId>org.mockito</groupId>
     <artifactId>mockito-core</artifactId>
-    <version>5.3.1</version>
+    <version>5.16.1</version>
     <scope>test</scope>
 </dependency>
 ```
