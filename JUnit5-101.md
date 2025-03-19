@@ -16,7 +16,7 @@ Add the following dependencies in your `pom.xml`:
     <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-api</artifactId>
-        <version>5.9.2</version>
+        <version>5.12.1</version>
         <scope>test</scope>
     </dependency>
     
@@ -24,7 +24,7 @@ Add the following dependencies in your `pom.xml`:
     <dependency>
         <groupId>org.junit.jupiter</groupId>
         <artifactId>junit-jupiter-engine</artifactId>
-        <version>5.9.2</version>
+        <version>5.12.1</version>
         <scope>test</scope>
     </dependency>
 </dependencies>
