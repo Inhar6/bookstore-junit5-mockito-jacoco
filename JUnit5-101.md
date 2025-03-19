@@ -212,7 +212,7 @@ JaCoCo is used to measure test coverage in your project. To integrate JaCoCo, ad
 JUnit 5 provides a powerful and flexible testing framework with improved annotations, assertions, and integration with tools like Mockito and JaCoCo. By leveraging its features, you can write cleaner, more maintainable tests for your Java applications.
 
 ## References
-[JUnit 5 documentation](https://junit.org/junit5/)
-[Mockito documentation](https://site.mockito.org/)
-[JaCoCo documentation](https://www.eclemma.org/jacoco/)
+- [JUnit 5 documentation](https://junit.org/junit5/)
+- [Mockito documentation](https://site.mockito.org/)
+- [JaCoCo documentation](https://www.eclemma.org/jacoco/)
 
