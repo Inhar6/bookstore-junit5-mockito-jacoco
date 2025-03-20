@@ -1,7 +1,6 @@
 package com.example.bookstore;
 
 import java.util.List;
-import java.util.Optional;
 
 public class BookService {
     private final BookRepository repository;

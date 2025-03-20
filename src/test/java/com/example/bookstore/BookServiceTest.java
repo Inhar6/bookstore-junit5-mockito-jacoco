@@ -4,12 +4,6 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.Mockito.*;
 
 import org.junit.jupiter.api.*;
-import org.mockito.Mockito;
-
-import com.example.bookstore.Book;
-import com.example.bookstore.BookRepository;
-import com.example.bookstore.BookService;
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.Optional;
