@@ -22,6 +22,10 @@ This project demonstrates how to test a **Bookstore Management System** using **
 
 This setup is a clean, modular, and maintainable way to test book management using **JUnit 5, Mockito, and JaCoCo**. 🚀
 
+Play with the example by trying out the following two changes:
+1. In the code of class `BookServiceTest.java` comment out the block that does not use Mockito and comment the block that does use Mockito. That way you will be able to appreciate the difference between using and not using mock objects.
+2. Alter `pom.xml` by changing `<minimum>0.80</minimum>` to `<minimum>0.90</minimum>`. When you now run `mvn verify`, you will be alerted that the code coverage ratio specified, i.e. 90% is not met. 
+
 ## Running the Tests
 To execute all tests, navigate to the project root and run:
 

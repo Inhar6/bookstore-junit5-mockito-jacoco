@@ -77,9 +77,9 @@ class BookServiceTest {
         verify(repository, times(1)).delete("1");
     }
 
-    /*
+    
      
-    // Equivalent test code without using mocks
+    /* // Equivalent test code without using mocks
     @BeforeEach
     void setUpWithoutMock() {
         repository = new BookRepository(); // Use actual implementation
@@ -132,8 +132,8 @@ class BookServiceTest {
         repository.save(book);
         service.deleteBook("1");
         assertFalse(repository.findById("1").isPresent());
-    }
+    } */
 
 
-     */
+    
 }
