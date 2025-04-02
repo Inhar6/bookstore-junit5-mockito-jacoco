@@ -7,6 +7,22 @@ JUnit 5 is a modern testing framework for Java, offering more flexibility and im
 - **JUnit Jupiter**: Provides new programming models and test APIs.
 - **JUnit Vintage**: Allows running JUnit 4 and 3 tests on JUnit 5.
 
+**CLARIFICATION**. Distinction between Plugins and Dependencies.
+
+In Maven, both **plugins** and **dependencies** are core concepts, but they serve very different purposes in the build lifecycle. Plugins provide functionality during the build process. They define actions Maven can perform—like compiling code, packaging it into a JAR, running tests, generating reports, etc. Examples:
+- `maven-compiler-plugin` – compiles Java code.
+- `maven-surefire-plugin` – runs unit tests.
+- `maven-jar-plugin` – packages code into a JAR.
+
+Plugins are often used inside the `<build>` section of your `pom.xml`.
+
+Dependencies are libraries or frameworks that your project depends on to run or compile. They become part of your project's classpath. Examples:
+- `junit:junit` – for testing.
+- `org.springframework:spring-core` – Spring framework core.
+- `com.google.guava:guava` – Google's core libraries.
+
+Dependencies are used inside the `<dependencies>` section of your `pom.xml`.
+
 ## 1. Setting Up JUnit 5 with Maven
 Add the following dependencies in your `pom.xml`:
 
@@ -163,7 +179,7 @@ mvn test
 ```
 
 ## 8. Adding JaCoCo for Code Coverage
-JaCoCo is used to measure test coverage in your project. To integrate JaCoCo, add the following plugin to your `pom.xml`:
+JaCoCo is used to measure test coverage in your project. To integrate JaCoCo, add the following plugin to your `pom.xml` within the `<build>` element, which defines how your Maven project is built. It's where you configure everything related to the build process, such as plugins, resources, directory structure, and final artifact details.
 
 ```xml
 <plugin>
